@@ -7,14 +7,21 @@
 nav {
     position: absolute;
     width: 525px;
-    height: 228px;
-    right: 700px;
-    top: 136px;
+    left: 845px;
+    top: 216px;
+    top: 116px;
     font-weight: 75px;
     font-size: 35px;
     text-align: right;
 
 }
+
+.header {
+    width: 1600px;
+    height: 809px;
+    padding-bottom: 300px;
+}
+
 
 #nav header {
     color: blueviolet;
@@ -46,7 +53,7 @@ nav {
     width: 288px;
     height: 94px;
     left: 762px;
-    top: 908px;
+    top: 1108px;
 
 }
 
@@ -55,7 +62,7 @@ nav {
     width: 416px;
     height: 104px;
     left: 762px;
-    top: 1050px;
+    top: 1250px;
     font-size: 26px;
     color: crimson;
 
@@ -66,7 +73,7 @@ nav {
     width: 400px;
     height: 90px;
     left: 770px;
-    top: 1278px;
+    top: 1478px;
     font-size: 25px;
     color: blue;
 }
@@ -79,7 +86,7 @@ nav {
 }
 
 .Myplan h2 {
-    
+
     font-weight: 700px;
     font-size: 40px;
     line-height: 47px;
@@ -111,7 +118,7 @@ nav {
     background-size: cover;
     padding-right: 100px;
     padding-bottom: 100px;
-    margin-left: 100px;
+    margin-left: 150px;
     margin-top: 200px;
     width: 1140px;
     height: 300px;
@@ -122,7 +129,7 @@ nav {
     width: 459px;
     height: 94px;
     left: 294px;
-    top: 2275.3px;
+    top: 2620px;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
@@ -131,12 +138,46 @@ nav {
 
 .Callme {
     color: black;
-    background-color: aqua;
-    padding: 30px,30px;
+    background-color: seagreen;
+    padding: 30px, 30px;
     width: 160px;
     height: 64px;
     font-size: 26px;
     position: absolute;
-    top: 2450px;
+    top: 2790px;
     left: 300px;
+    border: none;
+}
+
+/* contac style */
+.contact {
+    display: flex;
+    gap: 150px;
+    background: #151414;
+    padding: 130px;
+    margin-top: 100px;
+    /* width: 100%; */
+}
+
+.contact .section-title {
+    text-align: left;
+    color: #F8F8F8;
+    width: 100%;
+}
+
+.footer {
+    color: #F8F8F8;
+}
+
+.btn-subscribe {
+    color: #151414;
+    background-color: seagreen;
+   margin: 40px -70px 105px ;
+    position: absolute;
+    width: 60px;
+    height: 40px;
+   
+}
+.contact a{
+    text-decoration: none;
 }
